@@ -1,0 +1,60 @@
+.mainDiv{
+    display: flex;
+    height: 50px;
+    text-align:center;
+    padding-top:20px;
+    border-bottom: 2px solid;
+    border-bottom-color: #616161;
+    justify-content: space-between
+}
+
+.labelDiv{
+    flex:6;
+    text-align: left;
+    margin-left: 30px;
+     width: 200px ;
+     padding-right: 5px;
+}
+
+.label{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    
+}
+
+.rightDiv{
+    flex:1;
+    text-align: right;
+    height: 35px;
+    display: flex;
+    /* padding-left: 250px; */
+
+}
+
+.labelDiv2{
+    margin-right: 20px;
+     padding: 5px
+}
+
+.footer{
+    height:40px;
+    position :fixed;
+    left: 0px;
+    bottom: 0px;
+    width:100vw;
+    
+}
+.logoutBtn{
+    height:30px;
+    width:30px;
+    border: 0px ;
+    background-color: inherit;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 7px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Roboto-slab';
+
+}

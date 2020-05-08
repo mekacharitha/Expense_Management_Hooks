@@ -1,0 +1,136 @@
+.linkDiv{
+    text-align: left ;
+}
+
+.AccountCard2{
+    height : 120px;
+    width : 200px;
+    background:linear-gradient(#b7f5f7 , #4aebf0);  
+    font-size: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    position: relative;
+    text-align: left;
+    left:10px;
+    flex-shrink: 0;
+    color:white;
+    border-radius: 5px;
+    margin-left: 150px; 
+}
+
+.accName{
+    font-size: larger;
+}
+
+.AccountCardSub{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    position: relative;
+    text-align: left;
+    left:10px
+}
+
+.smileDiv{
+    position: relative;
+    text-align: right;
+    font-size: 30px;
+    color: #ffffff;
+    top:1px;
+    right: 10px;
+    opacity: 0.5;
+}
+
+.AddTranscButton{
+    width:150px;
+    height:27px;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color : azure;
+    font-size: larger;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 0 2px 3px #ccc;
+    border:1px solid #eee ;
+    box-sizing: border-box;
+
+}
+
+.buttonDiv{
+    margin: auto;
+    
+}
+
+.subDivBtn{
+    display: flex;
+    margin:25px;
+}
+
+.TransactionItem1{
+    flex:1;
+    text-transform: capitalize;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.TransactionItem2{
+    flex:2;
+    text-transform: capitalize;
+}
+
+.TransactionItem3{
+    flex:1
+}
+
+.TransactionItem4{
+    flex:1
+}
+
+.TransactionItem5{
+    flex:1;
+    text-transform: capitalize;
+}
+
+.deleteIcon{
+    cursor: pointer;
+    width:75px;
+    text-align: right;
+}
+
+.editIcon{
+    width:75px;
+    text-align: right;
+    padding-right: 30px;
+}
+.iconDiv{
+    flex:1;
+}
+.transactionCard{
+    height: 75px;
+    width: 80%;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    margin: 15px;
+    padding-top: 22px ;
+    padding-bottom: 20px;
+    box-shadow: 0 2px 3px #ccc;
+    border:1px solid #eee ;
+    box-sizing: border-box;
+}
+
+.nameLabel{
+    text-transform: capitalize;
+}
+
+.mainTransc{
+    overflow-y: auto;
+    height: 470px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
